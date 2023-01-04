@@ -37,5 +37,12 @@ header h1{
 }
 
 #new-task-form {
-    
+    display: flex;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
 }
