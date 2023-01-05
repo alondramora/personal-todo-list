@@ -131,7 +131,6 @@ main {
     font-size: 1.125rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--purple);
 }
 
 .task .actions button:hover{
@@ -140,4 +139,12 @@ main {
 
 .task .actions button:active {
     opacity: 0.6;
+}
+
+.task .actions .edit {
+    color: var(--purple);
+}
+
+.task .actions .delete {
+    color: crimson;
 }
