@@ -55,8 +55,8 @@ window.addEventListener('load', () => {
                 task_input_el.removeAttribute('readonly');
                 task_input_el.focus();
                 task_edit_el.innerText = 'Save'; // the inner text will change from 'Edit' to 'Save'
-            } else if (task_edit_el.innerText.toLowerCase() == 'save'){
-                console.log('Save');
+            } else {
+                task_input_el.setAttribute('readonly', 'readonly');
                  task_edit_el.innerText = 'Edit';
             }
         })
